@@ -1,0 +1,168 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; line-height:24px; letter-spacing:1px; color:#888888;  }
+html { margin-top: 0px !important; }
+a:active  { outline: none; }
+a:focus   { -moz-outline-style: none; }
+a:link	  { text-decoration:none; color:#8C8C8C; }
+a:visited { }
+
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th { font-size: 1em; font-weight: normal; font-style: normal; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+@font-face { 	font-family: 'LevenimMTRegular';
+    src: url('../f/lvnm-webfont.eot');
+    src: url('../f/lvnm-webfont.eot?#iefix') format('embedded-opentype'), url('../f/lvnm-webfont.woff') format('woff'), url('../f/lvnm-webfont.ttf') format('truetype'), url('../f/lvnm-webfont.svg#LevenimMTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.vert { color:#333; writing-mode:tb-rl; -webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -o-transform: rotate(90deg);
+		white-space:nowrap; display:block; position:fixed; bottom:154px; right:14px; width:20px; height:40px; font-size:10px; font-weight:normal;   }
+p.vert a:hover { color:#000;}
+
+ul{ list-style: none; }
+fieldset,img { border: none; }
+caption,th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+#omniture{ position: absolute; top: 0; }
+
+body#home	 		 {  background-color:transparent; position:absolute; }
+body 	 			 {  font-family: LevenimMTRegular, arial; width: 100%;  margin: 0 auto; position: relative;  }
+#container			 {  min-height: 100%; *height:100%; margin: 0 auto; position: relative; z-index:8000; }
+
+body { background-color: #FFF; background-image: url("../i/bg_new.jpg"); background-position: right top; background-repeat: no-repeat; }	
+
+#container {  width: 94%; }
+#container img { margin:6px;}
+
+#top #header {  margin-left: 0px; position: relative;  top: 49px;  width:388px; }
+#blog #top #header {  margin-left: 0px; position: relative;  top: 49px;  width:514px; }
+#top #header h1 {font-size: 44px; color: #888888; font-weight: normal	; }
+#top #header a {float:right;} 
+#top #header a.index {float:left;}
+#VerColMenu { width: 818px; float: right; }	
+#VerColMenu a {  color: #888888;  padding: 18px 8px; font-weight:lighter; font-size:21px;  text-decoration: none; text-align:right; float:left; }
+#VerColMenu a:hover { color:#000; }
+#products { margin: 0 auto; position: relative; width: 74%; }
+
+p.vert { left: 0; width: 17px;  bottom: 162px; }
+section { margin:0 auto; text-align:center; }
+section a:hover {opacity:0.5;}
+section.logo { background:url("../i/logo_corner.png")no-repeat scroll 100% 0 transparent; height:44px; display:block; position:fixed; bottom:14px;  right:14px; width:36px; }
+section span { }
+.mosaic-block{  float: left; height: 230px; margin: 10px; overflow: hidden; position: relative; width: 230px; }
+.clearfix{ display: block; height: 0; clear: both; visibility: hidden; }
+		
+.details{ margin:15px 20px; color:#fff; }
+.details h4 {  color:#fff; }	
+.details h4 span {font-size:10px; color:#500000; position:absolute; top:10px; }	
+.bar  a:hover { opacity:0.5; }
+a{ text-decoration:none; }
+
+#top { height:103px; }
+
+/* Drop Down Menu */
+body.about #VerColMenu a.about, body.product #VerColMenu a.product, body.graphic #VerColMenu a.graphic, body.contact #VerColMenu a.contact, body.links #VerColMenu a.links, body#blog #VerColMenu a.blog { color:#CFCFCF; }
+
+/*text */
+#home #image img { margin:8px;}
+#home #paragraph 	 { color:#747170; width:70%; float:right; padding:0.5em; font-size:14px;}
+#home #paragraph p, #home #image p { margin-bottom:1em; }
+#home #paragraph h2 { font-size:2em; margin-top:0.5em; margin-bottom:1.5em; color:#888888;} 
+#home #image h2 { font-size:2em; margin-top:0.5em; color:#888888; width: 401px; } 
+#home #image h5 {margin-top:1em; float:left; }
+.photo img {  }
+#home.horizontal #paragraph {   width: 36%;  padding:0; text-align:justify; }
+#home.horizontal #image { width: 50%;  float:left; text-align:justify;  }
+#home.horizontal #image img.equis { margin-left:60px; }
+#home.horizontal #about { width: 80%; margin:20px auto;  text-align:justify;  }
+#container section, #container #formContainer { margin-top:16px; }
+#container section { margin-left:10px; margin-right:28px; }
+#container section p { color:#383838;}
+#container #content img { width:113%; margin-bottom:24px; }
+#home.product #image img {  float:left; } 
+/* media queries -------- */
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1225px) {
+/* Styles */
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {   }
+ 
+/* menu  ----------- */
+@media only screen and (max-width : 1080px) { 
+	#VerColMenu { width:700px;}
+	#VerColMenu a {  font-size:14px; margin-top:30px; }
+}
+
+@media only screen and (max-width : 1280px) { 
+	#VerColMenu { width:600px;}
+	#VerColMenu a {  font-size:14px; }
+}
+@media only screen and (min-width : 1480px) { 
+body { background:none;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+ 
+	#VerColMenu { width:640px;}
+	#VerColMenu a {  font-size:14px; margin-top:30px; }
+
+}
+
+@media only screen and (min-width : 768px){
+
+	#VerColMenu a {   }
+	
+}
+
+@media only screen and (max-width : 767px){
+	#VerColMenu { width:560px;}
+	#VerColMenu a {  font-size:12px; margin-top:60px; }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+.slides_control{ width:100% !important; height:500px !important; }
+
+}
+ 
+/* iPads (portrait) ----------- */
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {*/
+	
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+}
+
+@media only screen and (max-width : 767px) {
+	
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+ 
+
+/* iPhone 4 and high pixel ratio devices ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+

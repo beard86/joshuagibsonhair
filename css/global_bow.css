@@ -1,0 +1,90 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input { margin: 0; padding: 0; line-height:24px; letter-spacing:1px; color:#000;  }
+
+a   { outline: none; }
+a:active  { outline: none; }
+a:focus   { -moz-outline-style: none; }
+a:link, a:visited { text-decoration:none; color:#282828; }
+
+body   			{  font-family: Helvetica, Charcoal, sans-serif; margin: 20px auto; width: 100%; background-color:#FFF; margin-bottom:60px; }
+
+body#intro 		{ margin:400px auto; }
+#intro a  		{ text-align:center; width: 100%;  margin:0 auto; font-size: 136px; opacity:0; text-shadow: 0 18px 1px #F8F8F8;  -moz-text-shadow: 0 18px 1px #F8F8F8; -webkit-text-shadow: 0 18px 1px #F8F8F8; }
+#intro img 		{ width:80%; }
+#intro h2		{   margin-top:80px; font-family:helvetica;}
+#intro span  		{ font-family:arial;font-size:18px; padding-left:6px; }
+
+#main #header  	{ color:#282828; -moz-box-shadow: 0 0 2px #CCCCCC; box-shadow: 0 0 2px #CCCCCC; -webkit-box-shadow: 0 0 2px #CCCCCC; z-index:1; margin:0 auto; background-color:#FFF; width:inherit; height:58px; position:fixed; padding: 22px 0; bottom:-20px; font-size:58px; opacity:1; -webkit-text-shadow: 0 18px 1px #F8F8F8; text-shadow: 0 18px 1px #F8F8F8;  -moz-text-shadow: 0 18px 1px #F8F8F8; }
+#main #header a { float:left;  }
+#main #header a.title { margin-left:32px; }
+#main #header span { font-family:Helvetica, arial; font-style:italic; font-size:10px; padding-left:6px; -webkit-text-shadow: 0 5px 1px #F8F8F8; text-shadow: 0 5px 1px #F8F8F8;  -moz-text-shadow: 0 5px 1px #F8F8F8; }
+#main a:hover   { }
+#main #images   { width:980px; position:absolute; left:50%; margin-left:-436px; top:50%; margin-top:-338px; text-align:left; overflow:auto;  padding-top:20px; padding-left:20px; padding-bottom:80px; /*-moz-box-shadow: 0 0 36px #E8E8E8; box-shadow: 0 0 36px #E8E8E8; -webkit-box-shadow: 0 0 36px #E8E8E8;*/  }
+#main #images img { margin:6px; opacity:0.01;  border:medium none;  -moz-box-shadow: 0 0 4px #CCCCCC; box-shadow: 0 0 4px #CCCCCC; -webkit-box-shadow: 0 0 4px #CCCCCC;}
+#main #images a {  width: 276px; display: inline-block; }
+#main #images a.hide {display:none;}
+#main #images span { font-family:Helvetica, arial; font-style:italic; font-size: 10px; display:block; margin-left: 10px; margin-top: -14px; text-align: left; }
+
+/* Drop Down Menu */
+body.edit #VerColMenu a.edit, body.advert #VerColMenu a.advert, body.portrait #VerColMenu a.portrait, body.fashion #VerColMenu a.fashion, body.contact #VerColMenu a.contact, body.links #VerColMenu a.links, body#blog #VerColMenu a.blog { color:#CFCFCF; }
+
+#main #header #VerColMenu, #main #header #VerColMenu ul { list-style:none; width:586px; float:right; }
+#main #header #VerColMenu li { }
+#main #header #VerColMenu a { font-family:Helvetica Neue Condensed, arial;  line-height:24px; display:block; font-weight:bold; font-size:16px;  padding :8px 8px; text-decoration: none; text-align:right; -webkit-text-shadow: 0 10px 1px #F8F8F8; text-shadow: 0 10px 1px #F8F8F8;  -moz-text-shadow: 0 10px 1px #F8F8F8; }
+#main #header #VerColMenu a:hover { color:#999; }
+#main #header #VerColMenu ul a { color : #4E4848; font-size:16px; padding :2px 8px; }
+#main #header #VerColMenu ul a:hover {  color : #CFCFCF; }
+
+@media only screen and (max-width : 1124px) { 
+#main #header a { font-size: 56px; }
+#main #header a.title { margin-left: 24px; }
+#main #header #VerColMenu {  width: 598px; }
+#main #header #VerColMenu a {  font-size:16px; }
+}
+
+@media only screen and (max-width : 1144px) { 
+#main #header #VerColMenu {  width: 578px; }
+#main #header #VerColMenu a {  font-size:16px; }
+#main #images { width:838px; margin: 0 auto; position:inherit; }
+}
+
+@media only screen and (max-width : 1024px) { 
+#main #header a { font-size: 46px }
+#main #header #VerColMenu {  width: 534px; }
+#main #header #VerColMenu a {  font-size:14px; }
+#main #images { width:838px; margin: 0 auto; position:inherit; }
+}
+@media only screen and (min-width : 1480px) { 
+#main #images { margin-left: -541px;  margin-top: -394px; width:1280px; } 	
+#intro h2 {  margin-top:180px;}
+#main #images a {  height: 262px; width: 376px; }
+}
+
+@media only screen and (max-width : 900px)   {
+	#main #header { height:36px; padding:18px 0;}
+	#main #header a { font-size: 36px; }	
+	#main #header #VerColMenu {  width: 456px; margin: -5px; }
+	#main #header #VerColMenu a {  font-size:12px; }
+	#main #images img { margin:4px; } 
+	#main #images { width:564px; }
+}
+@media only screen and (max-width : 760px)   {
+	#main #header { height:32px; padding:18px 0;}
+	#main #header a { font-size: 26px; }	
+	#main #header #VerColMenu {  width: 430px; }
+	#main #header #VerColMenu a {  font-size:11px; }
+	#main #images img { margin:4px; } 
+}
+@media only screen and (max-width : 600px)   {
+	#main #header #VerColMenu { width: 380px;  }
+	#main #header a { font-size: 20px; padding:2px; }
+	#main #header #VerColMenu {  width: 364px; }
+	#main #header #VerColMenu a {  font-size:8px; }	
+}
+/* iPhone Portrait & Landscape*/
+@media only screen and (max-device-width:480px) {
+	body { margin: 0 auto 60px; }	
+	#main #header  	{ position:inherit; height: 33px; }
+	#main #header a { font-size: 26px; padding:2px; }
+	#main #header #VerColMenu {  width: 456px; }
+	#main #header #VerColMenu a {  font-size:10px; }	
+}

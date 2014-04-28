@@ -1,0 +1,199 @@
+/*  ----------- GLOBAL  ----------- */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input, video { margin: 0; padding: 0; line-height:22px; letter-spacing:1px; color:#202020; list-style:none; 	 }
+
+a   { outline: none; }
+a:active  { outline: none; }
+a:focus   { -moz-outline-style: none; }
+a:link, a:visited { text-decoration:none; color:#202020; }
+a:hover { color:#999; }
+img  { border:none; }
+
+/*  ----------- FONTS  ----------- */
+
+/*  ----------- INTRO  ----------- */
+html { height:100%;  }
+body {  font-size:14px;font-family: 'Karla', Arial, sans-serif; margin: 20px auto; width: 100%;  }
+body		{ margin:0 auto; text-align: left;  overflow:hidden; }
+a {  }
+h1 { -webkit-text-shadow:0 1px 1px #CCC;-moz-text-shadow:0 1px 1px #CCC;text-shadow:0 1px 1px #CCC; z-index:0; color:#FFFF00; line-height:100px; font-size: 54px; right: 42px; top: 24px; opacity: 0; position: absolute;  text-align: right;    }
+h1 { /*background: rgb(256, 256, 256); background: rgba(255,255,0, 0.25);*/ }
+img.shuffle { left: 50%; margin-left: -50%; position: absolute; top: 0; width: 100%;  z-index: -1; }
+h2		{ margin-top:120px; font-family:helvetica; z-index:4;}
+span  		{ font-family:arial;font-size:18px; padding-left:6px; }
+a#title {  color:#FFFF00;  }
+
+html { background:url('../i/pattern3.jpg') #FFF;  }
+/*  ----------- FULL BACKGROUND IMG  ----------- */
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+	}
+}
+
+/*.loader #carousel { background:url("../i/jgh.GIF");}*/
+
+#content p { margin-bottom:18px; }
+#contact { position: fixed; background: rgba(0, 0, 0, 0.3); width: 100%; padding: 5px 54px; z-index:10;}
+#contact a { color:#FFF;}
+#contact span { color:#FFF; font-size:14px; padding-left:12px;}
+/*  ----------- HEADER  ----------- */
+#header  	{ background: rgba(0, 0, 0, 0.25); color:#282828; position:fixed; left:8%; top:42%;  padding: 15px 0;  font-size:58px;   height:100%;  }
+#header a {   }
+#header a.title { margin-left:32px; }
+#header span { font-family:Helvetica Neue Light, arial; font-style:italic; font-size:10px; padding-left:6px; -webkit-text-shadow: 0 5px 1px #F8F8F8; text-shadow: 0 5px 1px #F8F8F8;  -moz-text-shadow: 0 5px 1px #F8F8F8; }
+
+/*  ----------- Menu  ----------- */
+body.edit #VerColMenu a.edit, 
+body.advert #VerColMenu a.advert, 
+body.portrait #VerColMenu a.portrait, 
+body.archive #VerColMenu a.archive, 
+body.contact #VerColMenu a.contact, 
+body.links #VerColMenu a.links, 
+body#blog #VerColMenu a.blog { color:#404040; }
+
+#header #VerColMenu { padding-left:20px; list-style:none;  float:left; width:180px;  font-size:18px;   width:203px \0/IE8; }
+#header #VerColMenu li { padding:5px; }
+#header #VerColMenu a { color: #fff;  }
+#header #VerColMenu a:hover { color:#999; }
+#header #VerColMenu ul a { color : #4E4848;  padding :2px 8px; }
+#header #VerColMenu ul a:hover {  color : #CFCFCF; }
+#header #VerColMenu li ul li a {  font-size:14px; line-height:14px; }
+
+#main {	height: 720px; width: 780px;opacity: 0; z-index: 10; position: absolute; left:50%;margin-left:-290px;top:50%;margin-top:-360px;}
+#biog #main { padding: 120px 0px; }
+#main #content { width:420px; height:410px; left: 140px; overflow:auto;outline:none; }
+#main { background: url("../i/content-bg.gif") no-repeat scroll transparent;	 }
+#photographer #main {background-color:rgba(0, 0, 0, 0.5); padding-top:0 ; width: 67.2%; max-width: 960px; background-position:20% 90%;}
+#photographer #main #content {left:252px;}
+#photographer #main #heading { background-color:rgba(51,102,102, 0.7); margin-bottom:210px; padding:4px 10px; color:#FFF; font-size:16px;}
+#photographer #main { height:710px;  }
+#photographer.junya #main { background:none; }
+#photographer.novembre #main { max-width:900px;}
+
+#photographer.junya #main #heading { margin-bottom:0px;}
+#photographer #main video ,
+#photographer #main iframe { margin-top:-205px; margin-left:30px; border:none;}
+#photographer.film #main { background-image: none;  }
+#photographer.films #main ul { padding-top: 50px; }
+
+
+#links #main { background: url("../i/content-bg-tope.gif") no-repeat scroll 50% transparent ; }
+#links #main #content { padding-left: 279px; height:446px; padding-top: 140px;}
+#links #main ul { width: 216px; }
+
+#main #header ul { width: 308px; margin:80px auto; }
+#main #header ul li { color:#404040;}
+#main #header ul li h3 { margin-top:28px;}
+#main #header ul li h3.top { margin-top:0;}
+
+#photographer #main ul {margin:0 auto; }
+
+#main .es-nav,
+#main .flex-direction-nav {opacity:0.01;  transition:opacity 0.8s linear;-moz-transition:opacity 0.8s linear;-webkit-transition:opacity 0.8s linear;}
+#main:hover .es-nav,
+#main:hover .flex-direction-nav {opacity:0.9;}
+
+/* ----------- Page specific  ----------- */
+
+/*  scrollgeneric is used for corrective styling of elements, and should not be modified or removed */ 
+.scrollgeneric { line-height: 1px; font-size: 1px; position: absolute; top: 0; left: 0; }
+
+.vscrollerbase { width: 10px; background-color: #FFF; }
+.vscrollerbar { width: 10px; background-color: #ccc; }
+.hscrollerbase { height: 10px; background-color: #FFF; }
+.hscrollerbar { height: 10px; background-color: #000; }
+
+.scrollerjogbox { width: 10px; height: 10px; top: auto; left: auto; bottom: 0px; right: 0px; background-color: gray; }
+
+/*Screen specific */
+@media only screen and (max-width : 1480px) { 
+}
+
+@media only screen and (max-width : 1244px) { 
+}
+
+
+@media only screen and (max-width : 1024px) { 
+}
+
+@media only screen and (max-width : 940px)   {
+ 
+}
+@media only screen and (max-width : 790px)   {
+}
+@media only screen and (max-width : 700px)   {
+}
+/* iPhone Portrait & Landscape*/
+@media only screen and (max-device-width:480px) {
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+}
+/* Elastislide Style */
+.es-carousel-wrapper{
+	position:relative;
+	background-color:rgba(0, 0, 0, 0.5); 
+
+}
+.es-carousel{
+	overflow:hidden;
+}
+.es-carousel ul{
+	display:none;
+}
+.es-carousel ul li{
+	height:100%;
+	float:left;
+	display:block;
+}
+.es-carousel ul li a{
+	display:block;
+}
+.es-carousel ul li a img{
+	display:block;
+	border:none;
+	max-height:100%;
+	max-width:100%;
+}
+.es-nav span{
+	position:absolute;
+	top:50%;
+	left:12px;
+	background:transparent url(../i/arrow-l-r.png) no-repeat top left;
+	width:77px;
+	height:160px;
+	margin-top:-13px;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.8;
+}
+.es-nav span.es-nav-next{
+	right:12px;
+	left:auto;
+	background-position:top right;
+}
+.es-nav span:hover{
+	opacity:1.0;
+}
+.es-carousel p { position:absolute; top:-10px; left:10px; z-index:1000; color:#FFF;}
