@@ -17,59 +17,46 @@
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 	<script src="js/random_image.js" type="text/javascript" charset="utf-8"></script>	
-	<script type="text/javascript" language="javascript">
-    	 $(window).load(function() {
-			$('img.bg').randomImage();
-    	 	 $("h1, h2, img, #main").stop().animate({"opacity": "1", }, {duration:2000});
-    		$('.flexslider').flexslider({ animation: "slide", slideshow: "false" });
-	    });
-	</script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>	
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
 	<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" >
 </head>
 <body id="photographer" class="junya">
 	<img class="bg" src="i/px.png" alt="">
-	<div id="header">
-			<ul class="noaccordion menu" id="VerColMenu">
-				<li><a href="photographers.html" class="pictures">Pictures</a></li> 
-				<li><a href="biog.html" class="product">Biog</a></li>
-				<li><a href="films.html" class="films">Films</a></li>
-				<li><a href="links.html" class="links">Links</a></li>
-				<li><a href="contact.html" class="contact">Contact</a></li>
-			</ul>
-		</div>
-		<div id="main">
-			<div id="heading">GQ Style</div>
-				<div id="carousel" class="flex-container">
-					<div class="flexslider">
-						<ul class="slides">
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstylen.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle1n.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by John Balsom</p><img src="i/gqstyle2n.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by John Balsom</p><img src="i/gqstyle3n.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle4n.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle5n.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle.jpg" alt="GQ" /></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle1.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle2.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Jamie Hawkworth</p><img src="i/gqstyle3.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Mark Lebon</p><img src="i/gqstyle4.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle5.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle6.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle7.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle8.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle9.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle10.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle12.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle14.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle15.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle16.jpg" alt="GQ"/></a></li>
-							<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle17.jpg" alt="GQ"/></a></li>
-						</ul>
-					</div>
+	<div class="js-include" title="nav.html">
+	</div>
+	<div id="main">
+		<div id="heading">GQ Style</div>
+			<div id="carousel" class="flex-container">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstylen.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle1n.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by John Balsom</p><img src="i/gqstyle2n.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by John Balsom</p><img src="i/gqstyle3n.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle4n.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Daniel Reira</p><img src="i/gqstyle5n.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle.jpg" alt="GQ" /></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle1.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle2.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Jamie Hawkworth</p><img src="i/gqstyle3.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Mark Lebon</p><img src="i/gqstyle4.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle5.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle6.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle7.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle8.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle9.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle10.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Thomas Lohr</p><img src="i/gqstyle12.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Timur Celikdag</p><img src="i/gqstyle14.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle15.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle16.jpg" alt="GQ"/></a></li>
+						<li><p class="flex-caption">Shot by Mark LeBon</p><img src="i/gqstyle17.jpg" alt="GQ"/></a></li>
+					</ul>
 				</div>
-		</div>
-		<h1><a id="title" href="index.html">JOSHUA GIBSON</a></h1>
+			</div>
+	</div>
+	<h1><a id="title" href="index.html">JOSHUA GIBSON</a></h1>
 
 </body>
 </html>

@@ -15,38 +15,27 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 	<script src="js/random_image.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" language="javascript">
-    	 $(window).load(function() {
-			$('img.bg').randomImage();
-    	 	 $("h1, h2, img, #main").stop().animate({"opacity": "1", }, {duration:2000});
-    	 });
-	</script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>	
 	<link rel="stylesheet" href="css/orbit-1.2.3.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body id="photographer" class="films film">
 	<img class="bg" src="i/px.png" alt="">
-	<div id="header">
-			<ul class="noaccordion menu" id="VerColMenu">
-				<li> <a href="photographers.html" class="pictures">Pictures</a></li>
-				<li><a href="biog.html" class="product">Biog</a></li>
-				<li><a href="films.html" class="films">Films</a> </li>
-				<li><a href="links.html" class="links">Links</a></li>
-			</ul>
-		</div>
-		<div id="main">
-			<div id="heading">The Sunday Times</div>
+	<div class="js-include" title="nav.html">
+	</div>
+	<div id="main">
+		<div id="heading">The Sunday Times</div>
 
-			<video width="900" height="600" controls="controls">
-  				<source src="v/times.mp4" type="video/mp4" />
-  				<source src="v/times.ogv" type="video/ogg" />
-  				Your browser does not support the html 5 video tag.
-  				Please update your browser or download one that works properly. 
-  				Either <a href="https://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.
-  				Thanks.
-			</video>
+		<video width="900" height="600" controls="controls">
+				<source src="v/times.mp4" type="video/mp4" />
+				<source src="v/times.ogv" type="video/ogg" />
+				Your browser does not support the html 5 video tag.
+				Please update your browser or download one that works properly. 
+				Either <a href="https://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>.
+				Thanks.
+		</video>
 
-		</div>
+	</div>
 		<h1><a id="title" href="index.html">JOSHUA GIBSON</a> </h1>
 </body>
 </html>

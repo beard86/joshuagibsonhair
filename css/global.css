@@ -109,9 +109,13 @@ body#blog #VerColMenu a.blog { color:#404040; }
 #main .flex-direction-nav {opacity:0.01;  transition:opacity 0.8s linear;-moz-transition:opacity 0.8s linear;-webkit-transition:opacity 0.8s linear;}
 #main:hover .es-nav,
 #main:hover .flex-direction-nav {opacity:0.9;}
-
+.perry .flexslider .slides img,
+.perry .es-carousel ul li a img { width: 100%; }
 /* ----------- Page specific  ----------- */
-
+.press .flexslider .slides > li { 
+	height: 660px;
+	overflow: scroll;
+}
 /*  scrollgeneric is used for corrective styling of elements, and should not be modified or removed */ 
 .scrollgeneric { line-height: 1px; font-size: 1px; position: absolute; top: 0; left: 0; }
 
